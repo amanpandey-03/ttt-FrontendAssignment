@@ -1,5 +1,13 @@
 import React from 'react'
 import "./Userinfo.css";
+import { FcApproval } from "react-icons/fc";
+import { FcGlobe } from "react-icons/fc";
+import { TbStarFilled } from "react-icons/tb";
+import { BiSolidLike } from "react-icons/bi";
+import { AiFillEye } from "react-icons/ai";
+import { FcLike } from "react-icons/fc";
+
+
 
 const Userinfo = () => {
   return (
@@ -17,6 +25,8 @@ const Userinfo = () => {
           {/* Div for name */}
           <div className="name">
           <h3>Anuj Gosalia</h3>
+          <FcGlobe className="icons"/>
+          <FcApproval className="icons"/>
           </div>
 
           {/* Box for followers and dollow count*/}
@@ -39,15 +49,27 @@ const Userinfo = () => {
 
     {/*Div for Bio */}
     <div className="bio">
-      <p>Co-founder & CEO at terribly tiny tales</p>
+      <p>Co-founder & CEO at Terribly Tiny Tales</p>
       <a href="www.instagram.com" className="link">https://www.instagram.com/anujgosalia</a>
 
       <div className="highlights">
 
-        <div className="stars hlt">125</div>
-        <div className="upvote hlt">12</div>
-        <div className="views hlt">57.8K</div>
-        <div className="likes hlt">26.0K</div>
+        <div className="stars hlt">
+        <TbStarFilled className="hlticons"/>
+        125
+        </div>
+        <div className="upvote hlt">
+        <BiSolidLike className="hlticons"/>
+          12  
+        </div>
+        <div className="views hlt">
+        <AiFillEye className="hlticons"/>
+          57.8K
+        </div>
+        <div className="likes hlt">
+        <FcLike className="hlticons"></FcLike>
+          26.0K
+        </div>
 
       </div>
 

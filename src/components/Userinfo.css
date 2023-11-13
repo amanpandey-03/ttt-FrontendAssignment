@@ -59,14 +59,34 @@
 }
 .link{
     text-decoration: none;
-    color: #a9dde1;
+    color: #1bd1de;
 }
 
 .highlights{
     display: flex;
     margin-top: 0.7rem;
+    align-items: center;
+    
 }
 
 .hlt{
-    margin-right: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1rem;
+}
+
+
+.name{
+    display: flex;
+    align-items: center; 
+      
+}
+.icons{
+    margin-top: 4px;
+    margin-left: 0.5rem;
+}
+.hlticons{
+    margin-right: 0.3rem;
+    
 }
