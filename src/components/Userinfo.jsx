@@ -2,7 +2,7 @@ import React from 'react'
 import "./Userinfo.css";
 import { FcApproval } from "react-icons/fc";
 import { FcGlobe } from "react-icons/fc";
-import { TbStarFilled } from "react-icons/tb";
+import { FcRating } from "react-icons/fc";
 import { BiSolidLike } from "react-icons/bi";
 import { AiFillEye } from "react-icons/ai";
 import { FcLike } from "react-icons/fc";
@@ -55,7 +55,8 @@ const Userinfo = () => {
       <div className="highlights">
 
         <div className="stars hlt">
-        <TbStarFilled className="hlticons"/>
+        <FcRating className="hlticons"/>
+        
         125
         </div>
         <div className="upvote hlt">

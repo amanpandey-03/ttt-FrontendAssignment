@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Cover from './components/Cover';
 import Userinfo from './components/Userinfo';
 import Divider from './components/Divider';
+import Posts from './components/Posts';
 
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
       <Cover/>
       <Userinfo/>
       <Divider/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
     </div>
   );
 }
