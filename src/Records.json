@@ -1,0 +1,56 @@
+[
+    {
+        "name" : "Anuj Gosalia",
+        "followers" : "6482",
+        "following": "245",
+        "bio": "Co-founder & CEO at Terribly Tiny Tales",
+        "link": "http:/www.instagram.com/anujgosalia",
+        "favourites":" 125",
+        "upvote" : "12",
+        "views" : "57.8K",
+        "likes" : "26.0K",
+        "totalVotes": "3",
+        "posts" : [
+            {   
+                "id":"1",
+                "postTitle" : " A new dawn",
+                "postCont":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "postType": "musing",
+                "postDate":"August 2 ",
+                "readTime":"2 mins Read",
+                "views":"102"
+            },
+            {
+                "id":"2",
+                "postTitle" : " A new dawn",
+                "postCont":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "postType": "musing",
+                "postDate":"August 2 ",
+                "readTime":"2 mins Read",
+                "views":"102"
+            }, 
+            { 
+                "id":"1",
+                "postTitle" : " A new dawn",
+                "postCont":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "postType": "thought",
+                "postDate":"January 27 ",
+                "readTime":"1 min Read",
+                "views":"102"
+            },
+            { 
+                "id":"3",
+                "postTitle" : " A new dawn",
+                "postCont":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "postType": "musing",
+                "postDate":"August 2 ",
+                "readTime":"2 mins Read",
+                "views":"102"
+            }
+
+        ]
+
+
+
+    }
+]
